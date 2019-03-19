@@ -7,6 +7,8 @@ class Car {
 
 // old school ES5 constructor
 function Moto() {
+  this.name = "Honda"
+  this.sayName = "my favorite bike is " + this.name
 }
 
 
@@ -19,3 +21,5 @@ const moto1 = new Moto
 console.log(car1.drive())
 console.log(car1.stop())
 console.log(moto1.drive())
+console.log(moto1.sayName)
+
